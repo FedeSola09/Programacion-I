@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1732653467 source:c:\users\feder\onedrive\desktop\progra 1\tp proyectos\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
