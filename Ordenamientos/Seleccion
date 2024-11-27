@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+void ordenamientoPorSeleccion(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        int minIndex = i;
+        // Encontrar el índice del menor elemento.
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // Intercambiar el menor elemento con el primer elemento desordenado.
+        int temp = arr[minIndex];
+        arr[minIndex] = arr[i];
+        arr[i] = temp;
+    }
+}
+
+void imprimirArreglo(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    int arreglo[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arreglo) / sizeof(arreglo[0]);
+
+    printf("Arreglo original: ");
+    imprimirArreglo(arreglo, n);
+
+    ordenamientoPorSeleccion(arreglo, n);
+
+    printf("Arreglo ordenado: ");
+    imprimirArreglo(arreglo, n);
+
+    return 0;
+}
