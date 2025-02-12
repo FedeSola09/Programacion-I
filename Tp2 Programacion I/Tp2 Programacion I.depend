@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1490112217 source:c:\users\feder\onedrive\desktop\progra 1\tp proyectos\tp2 programacion i\pila.c
+	"pila.h"
+
+1490112217 c:\users\feder\onedrive\desktop\progra 1\tp proyectos\tp2 programacion i\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1732776099 source:c:\users\feder\onedrive\desktop\progra 1\tp proyectos\tp2 programacion i\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
