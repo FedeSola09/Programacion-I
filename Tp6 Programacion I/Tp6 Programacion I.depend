@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1738961145 source:c:\users\feder\onedrive\desktop\progra 1\tp proyectos\tp6 programacion i\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
